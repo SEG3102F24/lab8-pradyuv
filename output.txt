@@ -1,0 +1,100 @@
+.
+├── .git
+│   ├── FETCH_HEAD
+│   ├── HEAD
+│   ├── branches
+│   ├── config
+│   ├── description
+│   ├── hooks
+│   │   ├── applypatch-msg.sample
+│   │   ├── commit-msg.sample
+│   │   ├── fsmonitor-watchman.sample
+│   │   ├── post-update.sample
+│   │   ├── pre-applypatch.sample
+│   │   ├── pre-commit.sample
+│   │   ├── pre-merge-commit.sample
+│   │   ├── pre-push.sample
+│   │   ├── pre-rebase.sample
+│   │   ├── pre-receive.sample
+│   │   ├── prepare-commit-msg.sample
+│   │   ├── push-to-checkout.sample
+│   │   ├── sendemail-validate.sample
+│   │   └── update.sample
+│   ├── index
+│   ├── info
+│   │   └── exclude
+│   ├── logs
+│   │   ├── HEAD
+│   │   └── refs
+│   │       ├── heads
+│   │       │   ├── client
+│   │       │   ├── main
+│   │       │   └── server
+│   │       └── remotes
+│   │           ├── origin
+│   │           │   └── HEAD
+│   │           └── upstream
+│   │               ├── HEAD
+│   │               ├── client
+│   │               ├── main
+│   │               └── server
+│   ├── objects
+│   │   ├── info
+│   │   └── pack
+│   │       ├── pack-d8df4f5328d44b4d337d96431f291e9f34214589.idx
+│   │       ├── pack-d8df4f5328d44b4d337d96431f291e9f34214589.pack
+│   │       └── pack-d8df4f5328d44b4d337d96431f291e9f34214589.rev
+│   ├── packed-refs
+│   └── refs
+│       ├── heads
+│       │   ├── client
+│       │   ├── main
+│       │   └── server
+│       ├── remotes
+│       │   ├── origin
+│       │   │   └── HEAD
+│       │   └── upstream
+│       │       ├── HEAD
+│       │       ├── client
+│       │       ├── main
+│       │       └── server
+│       └── tags
+├── .gitignore
+├── README.md
+├── build.gradle.kts
+├── gradle
+│   └── wrapper
+│       ├── gradle-wrapper.jar
+│       └── gradle-wrapper.properties
+├── gradlew
+├── gradlew.bat
+├── output.txt
+├── settings.gradle.kts
+└── src
+    ├── main
+    │   ├── kotlin
+    │   │   └── seg3x02
+    │   │       └── employeeGql
+    │   │           ├── EmployeeGqlApplication.kt
+    │   │           ├── configuration
+    │   │           │   ├── WebConfiguration.kt
+    │   │           │   └── WebSecurityConfig.kt
+    │   │           ├── entity
+    │   │           │   └── Employee.kt
+    │   │           ├── repository
+    │   │           │   └── EmployeesRepository.kt
+    │   │           └── resolvers
+    │   │               ├── EmployeesResolver.kt
+    │   │               └── types
+    │   │                   └── CreateEmployeeInput.kt
+    │   └── resources
+    │       ├── application.properties
+    │       └── graphql
+    │           └── employee.graphqls
+    └── test
+        └── kotlin
+            └── seg3x02
+                └── employeeGql
+                    └── EmployeeGqlApplicationTests.kt
+
+38 directories, 60 files
